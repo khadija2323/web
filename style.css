@@ -1,0 +1,80 @@
+body,
+html {
+     to make page full screen, also some other css
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif, times, serif;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    /* to hiddin scrollbar */
+    display: none;
+}
+
+.bg {
+    /* to make backgroun full screen */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none;
+    opacity: 75%;
+}
+
+img {
+    width: 20px;
+    margin: 15px;
+}
+
+hr {
+    width: 40%;
+    opacity: 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.content {
+    padding-top: 150px;
+}
+
+#arrow {
+    position: absolute;
+    bottom: 0px;
+    left: 48%;
+}
+
+div {
+    padding-top: 15px;
+}
+
+.dot {
+    /* draw circle and put image insid it*/
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    background-image: url(images/avatar.jpg);
+    background-size: contain;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h1,
+h3 {
+    font-weight: bold;
+}
